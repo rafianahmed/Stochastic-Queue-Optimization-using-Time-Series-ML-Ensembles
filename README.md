@@ -1,46 +1,36 @@
-# Optimization Restaurant Queueing System
+# 🍽️ Optimization Restaurant Queueing System
 
-A data-driven restaurant operations project focused on improving queueing and service efficiency through forecasting, simulation, and optimization.
+A data-driven restaurant operations project that combines **time-series forecasting, machine learning, and simulation** to analyze demand patterns and improve queueing efficiency.
 
-This repository explores how restaurant demand patterns can be modeled from historical sales data and used to support better operational decisions, including staffing, service flow, and waiting-time management.
+---
 
-## Project Overview
+## 🚀 Overview
 
-Restaurants often face fluctuating customer demand across weekdays, holidays, and seasonal periods. These fluctuations directly affect:
+Restaurants experience fluctuating demand driven by:
+- Weekday vs weekend behavior  
+- Seasonal trends  
+- Holidays and special events  
 
-- Waiting times
-- Queue lengths
-- Staff utilization
-- Customer experience
-- Revenue performance
+These variations impact:
+- Queue lengths  
+- Waiting times  
+- Staff utilization  
+- Customer experience  
 
-This project builds analytical and forecasting workflows to better understand restaurant demand and support operational optimization.
+This project builds an **end-to-end analytics pipeline** to forecast demand and support operational optimization.
 
-The repository includes:
-- A baseline demand modeling notebook
-- An improved forecasting pipeline
-- Time-based simulation notebooks
-- A project presentation video
+---
 
-## Objectives
+## 🎯 Key Features
 
-The main goals of this project are to:
+- Time-series forecasting (ARIMA + STL decomposition)  
+- Machine learning prediction (gradient boosting models)  
+- Advanced feature engineering (lags, rolling stats, holidays)  
+- Missing data handling using spline interpolation  
+- Recursive multi-step forecasting  
+- Ensemble modeling (statistical + ML)  
+- Time-based simulation for operational analysis  
 
-- Analyze historical restaurant sales patterns
-- Handle missing or irregular operational data
-- Forecast short-term restaurant demand
-- Simulate time-based demand behavior
-- Support queueing and restaurant operations optimization
-- Compare naive and improved modeling approaches
+---
 
-## Repository Structure
-
-```bash
-Optimization-Restaurant-Queueing-System/
-│
-├── naive.ipynb
-├── improved.ipynb
-├── time_simulation.ipynb
-├── time_simulation_ver2.ipynb
-├── Project Presentation.mp4
-└── README.md
+## 📂 Repository Structure
